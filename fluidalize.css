@@ -110,7 +110,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
- pre {
+pre {
   font-family: monospace, monospace;
   font-size: var(--step-0);
   margin: var(--space-m) 0;
@@ -156,7 +156,7 @@ code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: var(--space-m); /* 2 */
 }
 
 /**
@@ -172,21 +172,21 @@ small {
  * all browsers.
  */
 
- sub,
- sup {
-   font-size: var(--step--2);
-   line-height: 0;
-   position: relative;
-   vertical-align: baseline;
- }
- 
- sub {
-   bottom: calc(var(--space-xs) * -0.8);
- }
- 
- sup {
-   top: calc(var(--space-xs) * -1.25);
- }
+sub,
+sup {
+  font-size: var(--step--2);
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: calc(var(--space-xs) * -0.8);
+}
+
+sup {
+  top: calc(var(--space-xs) * -1.25);
+}
 
 /* Embedded content
    ========================================================================== */
