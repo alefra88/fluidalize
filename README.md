@@ -1,1 +1,1 @@
-# normalize
+# pattern for normalize + fluid desing
